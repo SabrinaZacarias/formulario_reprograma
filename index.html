@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 6</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <form action="#" class="form">
+        
+        <div>
+            <div>
+                <label for="texto">Usuário</label>
+                <input id="usuario" type="text" name="texto" class="half-col">
+            </div>
+            
+            <div>
+                <label for="texto">Senha</label>
+                <input id="senha" type="text" name="texto" class="half-col">
+            </div>
+            <input type="button" name="checarSenha" value="Checar Senha" id="checarSenha">
+        </div>
+        <div>
+            <label for="texto">Escolha uma ou múltiplas opções</label>
+            <div class="half-col">
+                <label for="mulher">Mulher</label>
+                <input type="checkbox" name="mulher" value="mulher">
+                <label for="poderosa">Poderosa</label>
+                <input type="checkbox" name="poderosa" value="Poderosa">
+                <label for="linda">Linda</label>
+                <input type="checkbox" name="linda" value="linda">
+                <label for="maravilhosa">Maravilhosa</label>
+                <input type="checkbox" name="maravilhosa" value="maravilhosa">
+                
+            </div>
+            <input type="button" name="checarCheckBox" value="Checar CheckBox">
+            
+        </div>
+        
+        <div>
+            <label for="texto">Escolha uma opção</label>
+            <div class="half-col">
+                <label for="poder">Super força</label>
+                <input type="radio" name="poder" value="Super força">
+                <label for="poder">Ser invisivel</label>
+                <input type="radio" name="poder" value="Ser invisivel">
+                <label for="poder">Ler mentes</label>
+                <input type="radio" name="poder" value="Ler mentes">
+                <label for="poder">Super velocidade</label>
+                <input type="radio" name="poder" value="Super velocidade">
+            </div>
+            <input type="button" name="checarRadio" value="Checar Radio">
+            
+        </div>
+        
+        <div>
+            <label for="texto">Selecione um tópico</label>
+            <select name="dropdown">
+                <option value="contato">Deixar meu site mais bonito</option>
+                <option value="contato">Deixar meu site mais bonito</option>
+                <option value="contato">Deixar meu site mais bonito</option>
+            </select>
+            <input type="button" name="checarSelect" value="Checar Select">
+            
+        </div>
+        
+        <div>
+            <label for="texto">Escolha um valor</label>
+            <input id="valor" type="number" name="valor">
+            <input id="checarValor" type="button" name="checarValor" value="Checar Valor">
+            
+        </div>
+        
+        <div>
+            <label for="texto">Comentário</label>
+            <input type="text" name="valor">
+        </div>
+        
+        <div>
+            <div class="half-col"></div>
+            <button class="btn btn_grey">Limpar</button>
+            <input class="btn btn_purple" type="submit" value="Enviar">
+        </div>
+    </form>
+    
+</body>
+</html>
